@@ -81,10 +81,57 @@ h4{
 }
 .side-bar {
     position: absolute;
-    text-align: right;
     top: 100px;
-    right: 10px;
-    width: 300px;
+    right: 150px;
+    width: 300px; 
+    float: left;
+    display:flex;
+    text-align: left;
+   
+}
+.around{
+    padding: 5px;
+    font-weight: 600;
+    
+
+}
+.second{
+    position: absolute;
+    top: 250px;
+    right: 150px;
+    width: 300px; 
+    float: left;
+    display:flex;
+    text-align: left;
+
+}
+.third{
+    position: absolute;
+    top: 400px;
+    right: 150px;
+    width: 300px; 
+    float: left;
+    display:flex;
+    text-align: left;
+
+}
+.fourth{
+    position: absolute;
+    top: 550px;
+    right: 150px;
+    width: 300px; 
+    float: left;
+    display:flex;
+    text-align: left;
+
 }
 
-
+.fifth{
+    position: absolute;
+    top: 700px;
+    right: 150px;
+    width: 300px; 
+    float: left;
+    display:flex;
+    text-align: left;
+}
