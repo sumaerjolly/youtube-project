@@ -1,27 +1,49 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px    
+    padding: 12px;    
 }
 .user {
     float: right;
-     margin-right: 5px;
+     margin-right: 10px;
+     margin-top: 10px;
 }
 .notification{
     float: right;
+    margin-top: 10px;
 }
 .share{
     float: right;
+    margin-top: 10px;
 }
 .apps{
     float: right;
+    margin-top: 10px;
 }
 .create{
     float: right;
+    margin-top: 10px;
 }
 form{
-    
-    display: inline-block;
-    
+    margin-left: 180px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    height: 100%;
+    display: flex;
 }
-
+input {
+    width: 500px;
+    height: 30px;
+}
+span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    padding: 2 0 0 0;
+}
