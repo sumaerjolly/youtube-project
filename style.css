@@ -31,7 +31,7 @@ ul li{
     margin-top: 10px;
 }
 form{
-    margin-left: 180px;
+    margin-left: 220px;
     margin-top: 10px;
     text-decoration: none;
     font-size: 24px;
@@ -47,3 +47,33 @@ span{
     font-size: 18px;
     padding: 2 0 0 0;
 }
+
+.main-video{
+    margin: 25px 200px 10px 100px;
+}
+h3{
+    margin-left: 100px;
+}
+h4{
+    margin-left: 100px;
+    margin-top: 10px;
+    color: gray;
+    display: inline-block;
+}
+.views-bar{
+    display: inline-block ;
+    
+}
+.icons{
+    display: inline-block;
+    margin-left: 350px;
+
+}
+
+.like{
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+
+
