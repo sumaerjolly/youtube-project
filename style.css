@@ -1,4 +1,6 @@
-#logo{
-    width: 125px;
-    height: 125px;
+ul li{
+    list-style: none;
+    display: inline-block;
+    
+   
 }
