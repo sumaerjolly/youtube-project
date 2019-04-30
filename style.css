@@ -1,6 +1,27 @@
 ul li{
     list-style: none;
     display: inline-block;
-    
-   
+    padding: 8px    
 }
+.user {
+    float: right;
+     margin-right: 5px;
+}
+.notification{
+    float: right;
+}
+.share{
+    float: right;
+}
+.apps{
+    float: right;
+}
+.create{
+    float: right;
+}
+form{
+    
+    display: inline-block;
+    
+}
+
