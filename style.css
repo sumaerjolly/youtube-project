@@ -62,6 +62,7 @@ h4{
 }
 .views-bar{
     display: inline-block ;
+    margin-bottom: 20px;
     
 }
 .icons{
@@ -74,6 +75,16 @@ h4{
     padding-right: 4px;
     padding-left: 4px;
 }
-
+.video-title{
+    margin: 0 0 0 95px;
+    position: relative;
+}
+.side-bar {
+    position: absolute;
+    text-align: right;
+    top: 100px;
+    right: 10px;
+    width: 300px;
+}
 
 
