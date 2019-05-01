@@ -49,30 +49,30 @@ span{
     font-size: 18px;
     padding: 2 0 0 0;
 }
-
-.main-video{
-    margin: 25px 230px 10px 100px;
-    
+.main-body {
+    width: 70%;
+    display: inline-block;
+    padding: 50px 0 0 50px;
 }
 
 h3{
-    margin-left: 100px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 h4{
-    margin-left: 100px;
     margin-top: 10px;
     color: gray;
     display: inline-block;
 }
 .views-bar{
     display: inline-block ;
-    margin-bottom: 20px;
+    width: 95%;
+    position: relative;
     
 }
 .icons{
     display: inline-block;
-    margin-left: 350px;
-
+    margin-left: 470px;
 }
 
 .like{
@@ -80,39 +80,42 @@ h4{
     padding-left: 4px;
 }
 .video-title{
-    margin: 0 0 0 95px;
-    position: relative;
+    width: 95%;
+    padding: 50px 0 0 0;
+    
+}
+.main-video{
+    width: 95%;
 }
 .side-bar {
-    position: absolute;
-    top: 88px;
-    right: 10px;
-    width: 410px;  
-   
-}
-.side-bar img {
-    padding: 5px;
-    max-width: 100%;
-}
-.comment{
-    max-width: 100%;
-}
-.s{
-    max-width: 100%;
+    top: 40px;
+    float: right;
+    width: 25%;
+    position: relative;
 }
 
-@media screen and (max-width: 900px) {
+main{
+    clear: both;
+   
+}
+
+
+.comment{
+    width: 95%;
+}
+
+
+@media screen and (max-width: 700px) {
   .side-bar {
     width: 100%;
     height: auto;
     position: relative;
   }
-  .side-bar img {float: left;}
+  .side-bar {float: left;}
   
 }
-iframe{
-    max-width: 100%;
-}
+
+
 img{
     max-width: 100%;
 }
