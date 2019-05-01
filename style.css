@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+    width: 100%;
+}
 ul li{
     list-style: none;
     display: inline-block;
@@ -49,8 +51,10 @@ span{
 }
 
 .main-video{
-    margin: 25px 200px 10px 100px;
+    margin: 25px 230px 10px 100px;
+    
 }
+
 h3{
     margin-left: 100px;
 }
@@ -81,41 +85,40 @@ h4{
 }
 .side-bar {
     position: absolute;
-    top: 100px;
-    right: 150px;
-    width: 300px; 
-    float: left;
-    display:flex;
-    text-align: left;
+    top: 88px;
+    right: 10px;
+    width: 410px;  
    
 }
-.around{
+.side-bar img {
     padding: 5px;
-    font-weight: 600;
-    
-
+    max-width: 100%;
 }
-.second{
-    position: absolute;
-    top: 250px;
-    right: 150px;
-    width: 300px; 
-    float: left;
-    display:flex;
-    text-align: left;
-
+.comment{
+    max-width: 100%;
 }
-.third{
-    position: absolute;
-    top: 400px;
-    right: 150px;
-    width: 300px; 
-    float: left;
-    display:flex;
-    text-align: left;
-
+.s{
+    max-width: 100%;
 }
-.fourth{
+
+@media screen and (max-width: 900px) {
+  .side-bar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .side-bar img {float: left;}
+  
+}
+iframe{
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* .fourth{
     position: absolute;
     top: 550px;
     right: 150px;
@@ -124,14 +127,5 @@ h4{
     display:flex;
     text-align: left;
 
-}
+} */
 
-.fifth{
-    position: absolute;
-    top: 700px;
-    right: 150px;
-    width: 300px; 
-    float: left;
-    display:flex;
-    text-align: left;
-}
